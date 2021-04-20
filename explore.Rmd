@@ -252,12 +252,9 @@ library(kenpomR)
 espn_pbp <- kenpomR::cbb_espn_game_all("401300969")
 
 head(espn_pbp$Plays)
-
-head(espn_pbp$Player)
-
 ```
 
-How about `gamezoneR`?
+How about `gamezoneR`? Can find it here: https://jacklich10.github.io/gamezoneR/index.html
 
 ```{r}
 library(gamezoneR)
